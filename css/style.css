@@ -1,0 +1,94 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:25px 40px;
+    align-items: flex-start;
+    margin-right: 55px ;
+    width: 280px;
+    height: 61px;
+}
+
+.footer-menu-item {
+    font-size: 14px;
+    text-wrap: nowrap;
+    width: 116px;
+}
+
+.footer-menu-link {
+    color:#FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.footer-menu-item {
+    list-style: none;
+
+}
+
+.slogan  {
+margin-top: 40px;
+margin-bottom: 80px;
+color:#FCF9F9;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: -1.32px;
+}
+
+.span-slogan {
+    color:#ECD979;
+}
+
+.footer-bg {
+    display: flex;
+    width: 452px;
+    height: 401px;
+    padding-right: 0.607px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-image: url(./img/yellow-ornament.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
